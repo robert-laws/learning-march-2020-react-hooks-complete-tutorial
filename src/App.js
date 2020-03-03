@@ -5,6 +5,7 @@ import { SecondCounter } from './components/useStateSection/SecondCounter';
 import { StateObject } from './components/useStateSection/StateObject';
 import { StateArray } from './components/useStateSection/StateArray';
 import { AfterRender } from './components/useEffectSection/AfterRender';
+import { Conditional } from './components/useEffectSection/Conditional';
 
 
 
@@ -26,6 +27,7 @@ function App() {
       <section className="useEffect">
         <h3>useEffect Section</h3>
         <AfterRender />
+        <Conditional />
       </section>
     </main>
   );
