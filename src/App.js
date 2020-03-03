@@ -1,11 +1,12 @@
 import React from 'react';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <main className="App">
-      APP
+      <h2>My App</h2>
+      <p>React Hooks Complete Tutorial</p>
     </main>
   );
 }
