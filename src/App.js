@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.scss';
-import { Counter } from './components/Counter';
+import { FirstCounter } from './components/FirstCounter';
+import { SecondCounter } from './components/SecondCounter';
+import { StateObject } from './components/StateObject';
+import { StateArray } from './components/StateArray';
 
 
 
@@ -12,7 +15,10 @@ function App() {
         <p>React Hooks Complete Tutorial</p>
         <hr/>
       </header>
-      <Counter />
+      <FirstCounter />
+      <SecondCounter />
+      <StateObject />
+      <StateArray />
     </main>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const Counter = () => {
+export const FirstCounter = () => {
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
@@ -8,8 +8,8 @@ export const Counter = () => {
   }
 
   return (
-    <article>
-      <h4>Counter</h4>
+    <article className='counter'>
+      <h4 className='title'>First Counter</h4>
       <p>{count}</p>
       <section>
         <button onClick={handleClick}>Add 1 to Count</button>
