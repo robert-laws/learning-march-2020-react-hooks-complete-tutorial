@@ -6,8 +6,10 @@ import { StateObject } from './components/useStateSection/StateObject';
 import { StateArray } from './components/useStateSection/StateArray';
 import { AfterRender } from './components/useEffectSection/AfterRender';
 import { Conditional } from './components/useEffectSection/Conditional';
-
-
+import { EffectCleanup } from './components/useEffectSection/EffectCleanup';
+import { Dependency } from './components/useEffectSection/Dependency';
+// import { UpdateContact } from './components/useEffectSection/UpdateContact';
+// import { RunOnce } from './components/useEffectSection/RunOnce';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         <p>React Hooks Complete Tutorial</p>
         <hr/>
       </header>
+      {/* <section className='useState'>
+        <UpdateContact />
+      </section> */}
       <section className='useState'>
         <h3>useState Section</h3>
         <FirstCounter />
@@ -28,6 +33,9 @@ function App() {
         <h3>useEffect Section</h3>
         <AfterRender />
         <Conditional />
+        {/* <RunOnce /> */}
+        <EffectCleanup />
+        <Dependency />
       </section>
     </main>
   );
