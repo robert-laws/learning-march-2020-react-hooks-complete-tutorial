@@ -1,0 +1,33 @@
+section.dataFetching {
+  article {
+    margin: 5px 0;
+    padding: 10px;
+    background: #1743a3;
+    color: #FFF;
+    text-align: center;
+  
+    section {    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .title {
+      margin: 4px 0;
+    }
+  
+    p {
+      margin: 4px 0;
+    }
+  
+    button {
+      width: 200px;
+      border: none;
+      padding: 10px 20px;
+      background: #ad0bdf;
+      border-radius: 4px;
+      color: #FFF;
+      margin: 5px 0;
+    }
+  }
+}
